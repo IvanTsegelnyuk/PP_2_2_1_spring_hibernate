@@ -46,9 +46,9 @@ public class MainApp {
          System.out.println();
       }
 
-      System.out.println(userService.getUserByCar("toyota", 10));
-      System.out.println(userService.getUserByCar("honda", 50));
-      System.out.println(userService.getUserByCar("suzuki", 100));
+      System.out.println(userService.getUserByCarAndSeries("toyota", 910));
+      System.out.println(userService.getUserByCarAndSeries("honda", 50));
+      System.out.println(userService.getUserByCarAndSeries("suzuki", 150));
 
       context.close();
    }

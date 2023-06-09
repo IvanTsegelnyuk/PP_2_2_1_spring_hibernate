@@ -10,5 +10,5 @@ public interface UserService {
 
     User getUser(long id);
 
-    User getUserByCar(String model, int series);
+    User getUserByCarAndSeries(String model, int series);
 }
